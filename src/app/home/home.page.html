@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Pull your hairs when using Windows!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="padding" color="light" fullscreen>
+  <ion-grid>
+    <ion-row align-items-center>
+      <ion-label>ten </ion-label>
+      <ion-select>
+        <ion-select-option *ngFor="let program of programs"
+          >{{program}}</ion-select-option
+        >
+      </ion-select>
+      <ion-label>
+        je pekna srandicka ale na windowse si vytrham vlasy skor ako ho pouzijem
+      </ion-label>
+    </ion-row>
+    <ion-row> </ion-row>
+  </ion-grid>
+</ion-content>
