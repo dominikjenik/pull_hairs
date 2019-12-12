@@ -6,6 +6,8 @@ import { Component } from "@angular/core";
   styleUrls: ["home.page.scss"]
 })
 export class HomePage {
-  programs: string[] = ["Unison", "Bash"];
+  choosenProgramDefault = "______";
+  choosenProgram: string = this.choosenProgramDefault;
+  programs: string[] = [this.choosenProgramDefault, "Unison", "Bash"];
   constructor() {}
 }
