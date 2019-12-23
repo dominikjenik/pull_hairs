@@ -8,6 +8,6 @@ import { Component } from "@angular/core";
 export class HomePage {
   choosenProgramDefault = "______";
   choosenProgram: string = this.choosenProgramDefault;
-  programs: string[] = [this.choosenProgramDefault, "Unison", "Bash"];
+  programs: string[] = [this.choosenProgramDefault, "Unison", "Bash", "git diff + less"];
   constructor() {}
 }
